@@ -1,0 +1,1 @@
+Lab 4: Compact blocks are enabled by default in Bitcoin Core v30.2.0 (since v0.13.0). No compact block messages visible in single-node regtest mode as compact blocks are negotiated between peers. BIP152 sendcmpct messages would appear with multiple connected peers.

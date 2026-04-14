@@ -1,0 +1,23 @@
+{
+  "chain": "regtest",
+  "blocks": 103,
+  "headers": 103,
+  "bestblockhash": "7f3ebe896e53aaddebe7a8052fc28347a7ec0fac05142585a23cef18730320d8",
+  "bits": "207fffff",
+  "target": "7fffff0000000000000000000000000000000000000000000000000000000000",
+  "difficulty": 4.656542373906925e-10,
+  "time": 1776192274,
+  "mediantime": 1776176943,
+  "verificationprogress": 1,
+  "initialblockdownload": false,
+  "chainwork": "00000000000000000000000000000000000000000000000000000000000000d0",
+  "size_on_disk": 31220,
+  "pruned": false,
+  "warnings": [
+  ]
+}
+Consensus Rules Observed:
+1. Block height: 103
+2. Chain: regtest
+3. Node rejected any blocks with invalid proof of work
+4. All transactions validated against consensus rules before mempool acceptance

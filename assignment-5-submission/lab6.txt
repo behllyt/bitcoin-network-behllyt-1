@@ -1,0 +1,28 @@
+{
+  "hash": "7f3ebe896e53aaddebe7a8052fc28347a7ec0fac05142585a23cef18730320d8",
+  "confirmations": 1,
+  "height": 103,
+  "version": 536870912,
+  "versionHex": "20000000",
+  "merkleroot": "b9a710d730cc305254ff06d32a668056eb5b2dac8671d4873bf39bb1fb5e488e",
+  "time": 1776192274,
+  "mediantime": 1776176943,
+  "nonce": 0,
+  "bits": "207fffff",
+  "target": "7fffff0000000000000000000000000000000000000000000000000000000000",
+  "difficulty": 4.656542373906925e-10,
+  "chainwork": "00000000000000000000000000000000000000000000000000000000000000d0",
+  "nTx": 1,
+  "previousblockhash": "616406340a73f5da226ae0d5a7e5a8cea95c57fce1fe1e01cf64ca119a34029a",
+  "strippedsize": 213,
+  "size": 249,
+  "weight": 888,
+  "tx": [
+    "b9a710d730cc305254ff06d32a668056eb5b2dac8671d4873bf39bb1fb5e488e"
+  ]
+}
+=== Merkle Root Verification ===
+Transaction IDs: ['b9a710d730cc305254ff06d32a668056eb5b2dac8671d4873bf39bb1fb5e488e']
+Calculated Merkle Root: b9a710d730cc305254ff06d32a668056eb5b2dac8671d4873bf39bb1fb5e488e
+Expected Merkle Root:   b9a710d730cc305254ff06d32a668056eb5b2dac8671d4873bf39bb1fb5e488e
+Match: True

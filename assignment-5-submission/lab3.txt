@@ -1,0 +1,61 @@
+{
+  "loaded": true,
+  "size": 0,
+  "bytes": 0,
+  "usage": 64,
+  "total_fee": 0.00000000,
+  "maxmempool": 300000000,
+  "mempoolminfee": 0.00000100,
+  "minrelaytxfee": 0.00000100,
+  "incrementalrelayfee": 0.00000100,
+  "unbroadcastcount": 0,
+  "fullrbf": true,
+  "permitbaremultisig": true,
+  "maxdatacarriersize": 100000
+}
+{
+  "amount": 0.00000000,
+  "fee": -0.00001410,
+  "confirmations": 1,
+  "blockhash": "616406340a73f5da226ae0d5a7e5a8cea95c57fce1fe1e01cf64ca119a34029a",
+  "blockheight": 102,
+  "blockindex": 1,
+  "blocktime": 1776192057,
+  "txid": "c5d101b3f4b7c12b1da597b1639c7a63623c8e9a7f938c3c0329271669a26c0a",
+  "wtxid": "3233a03028394527e98764b0bb44cacfca4769d317f773a834c2435660e4e6a3",
+  "walletconflicts": [
+  ],
+  "mempoolconflicts": [
+  ],
+  "time": 1776177861,
+  "timereceived": 1776177861,
+  "bip125-replaceable": "no",
+  "details": [
+    {
+      "address": "bcrt1q5snt52vqh2ldrnz4se8whdr2lfmchhr3tcf6vk",
+      "category": "send",
+      "amount": -5.00000000,
+      "label": "",
+      "vout": 1,
+      "fee": -0.00001410,
+      "abandoned": false
+    },
+    {
+      "address": "bcrt1q5snt52vqh2ldrnz4se8whdr2lfmchhr3tcf6vk",
+      "parent_descs": [
+        "wpkh([4db42545/84h/1h/0h]tpubDCY7GpgjfsGrCxnZJxbF54MAkkVhm1oUxfMDmY4JGf8J5p6ttEaYdUXwsav9WQxb5yhRZKZLdj9qfBLBNd9AbmEtRNBsZyLCHgFrKVXQmKG/0/*)#33j8a54r"
+      ],
+      "category": "receive",
+      "amount": 5.00000000,
+      "label": "",
+      "vout": 1,
+      "abandoned": false
+    }
+  ],
+  "hex": "0200000000010153defe1790d1386b15af174392d8c5dcc2ff6937f82a9e5e158ffb4f4910e8ed0000000000fdffffff027e87380c010000001600148f214300e804fb05f3a98cc50847346eb612e2900065cd1d00000000160014a426ba2980babed1cc55864eebb46afa778bdc71024730440220650d942851165af493bcae5c09de4aec9fc4fc219a950735a8cde6a609eda0be02204c5785de556061987a472d71dfaa8dfaeaf698232138dfc28aa4f329e133234b0121033aecbba9ae0398ec3f7a26dd16f2fce6653d63616da398201318c0ba81f4206265000000",
+  "lastprocessedblock": {
+    "hash": "616406340a73f5da226ae0d5a7e5a8cea95c57fce1fe1e01cf64ca119a34029a",
+    "height": 102
+  }
+}
+TXID: c5d101b3f4b7c12b1da597b1639c7a63623c8e9a7f938c3c0329271669a26c0a

@@ -1,0 +1,1 @@
+Lab 2: Second node started on port 18445 but snap version restricts multi-node RPC communication. Node 2 started successfully with bitcoin-core.daemon -regtest -datadir=/home/behlly/snap/bitcoin-core/common/.bitcoin2 -port=18445 -rpcport=18446 -daemon

@@ -1,0 +1,26 @@
+=== Bloom Filter Demo ===
+
+Adding items to bloom filter...
+Added: c5d101b3f4b7c12b1da597b1639c7a63623c8e9a7f938c3c0329271669a26c0a
+Added: b9a710d730cc305254ff06d32a668056eb5b2dac8671d4873bf39bb1fb5e488e
+Added: my_address_1
+Added: my_address_2
+
+=== Testing Membership ===
+Item: c5d101b3f4b7c12b1da5... -> In filter: True
+Item: b9a710d730cc305254ff... -> In filter: True
+Item: unknown_txid_not_add... -> In filter: False
+Item: another_unknown_txid... -> In filter: False
+
+=== Bloom Filter Stats ===
+Capacity: 1000
+Error rate: 0.001 (0.1%)
+Items added: 4
+
+=== How Bitcoin Uses Bloom Filters (BIP37) ===
+1. SPV client creates a bloom filter with its addresses
+2. Client sends filter to full node
+3. Full node checks transactions against filter
+4. Only matching transactions are sent to client
+5. This saves bandwidth for lightweight clients
+Note: BIP37 is deprecated due to privacy leaks
